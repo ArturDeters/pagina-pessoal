@@ -1,0 +1,87 @@
+body{
+     background-color: rgba(57, 255, 7, 0.253);
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 14pt;
+}
+.topbar{
+     text-align: center;
+     padding: 20px;
+     border-radius: 30px;
+     margin-bottom: 20px;
+     margin-top: 15px;
+     background-image: linear-gradient(to right, #3d6e15, #00ff00, #3d6e15);
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.87);
+}
+.autor{
+     text-align: center;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+     border-radius: 10px;
+     padding-top: 1px;
+     padding-bottom: 1px;
+     background-color: white;
+
+}
+.container{
+     padding: 10%;
+     border-radius: 30px ;
+     background-color: rgb(231, 231, 231);
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+.resumo{
+     background-color: rgb(190, 190, 190);
+     border-radius: 30px;
+     padding: 30px;
+     margin: 15px;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+     margin-bottom: 30px;
+     margin-top: 20px;
+}
+.faseI{
+     background-color: rgb(190, 190, 190);
+     border-radius: 30px;
+     padding: 30px;
+     margin: 15px;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+     margin-bottom: 30px;
+}
+.imagefase{
+     list-style: none;
+     padding: 0;
+     display: flex;
+
+}
+.imagefase li{
+     margin-right: 10px;
+     
+}
+.imagefase img{
+     border-radius: 10px;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+     height: 100px;
+     width: auto;
+
+}
+.faseII{
+     background-color: rgb(190, 190, 190);
+     border-radius: 30px;
+     padding: 30px;
+     margin: 15px;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+     margin-bottom: 30px;
+}
+.faseIII{
+     background-color: rgb(190, 190, 190);
+     border-radius: 30px;
+     padding: 30px;
+     margin: 15px;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+     margin-bottom: 30px;
+}
+.test{
+     background-color: rgb(190, 190, 190);
+     border-radius: 30px;
+     padding: 30px;
+     margin: 15px;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}

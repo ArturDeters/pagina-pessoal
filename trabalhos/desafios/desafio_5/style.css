@@ -1,0 +1,56 @@
+* {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+     background-color: darkgray;
+}
+header {
+     background: linear-gradient(rgb(109, 10, 10), red, rgb(109, 10, 10));
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: 60px;
+     padding-bottom: 10px;
+}
+.titulo {
+     justify-content: center;
+     align-items: center;
+     padding: 10px 0px 10px 20px; 
+}
+.conteudo {
+     margin-top: 10px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 20px;
+     width: 800px;
+}
+
+.Nome, .idade, .peso, .sexo, .doenca, .tatoo, .cirurgia, .cpf, .rg, .CEP, .numero-celular, .email, .pais, .termos-contrato {
+     background-color: rgb(182, 184, 184);
+     margin: 10px;
+     padding: 10px 20px 10px 20px;
+     border-radius: 20px;
+     font-family: Arial;
+}
+.button-verificar {
+     float: left;
+     width: 40px;
+     height: 20px;
+     border-radius: 10px;
+     background-color: azure;
+}
+.button-submit {
+     float: right;
+     width: 40px;
+     padding: 20px;
+     border-radius: 10px;
+     background-color: azure;
+     color: black;
+}
+.button-submit:hover, .button-verificar:hover {
+     color: blue;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header>
+          <div class="titulo">
+               <h1>Inscrição para doadores de sangue</h1>
+          </div>
+     </header>
+     <div class="conteudo">
+          <div>
+               <form action="https://inf.fw.iffarroupilha.edu.br/~bruno/form/formulario.php" name="f" method="get">
+                    <div class="Nome">
+                         <label for="nome">Nome completo:</label>
+                         <input type="text" name="Nome completo:"><br>
+                    </div>
+                    <div class="idade">
+                         <label for="idade">Idade: </label>
+                         <input type="number" name="idade">
+                    </div>
+                    <div class="peso">
+                         <label for="peso">Peso: </label>
+                         <input type="number" name="peso"> 
+                    </div>
+                    <div class="sexo">
+                         <label for="sexo">Sexo: </label>
+                         <input type="radio" value="Masculino" name="sexo"> Masculino
+                         <input type="radio" value="Feminino" name="sexo">Feminino
+                    </div>
+                    <div class="doenca"> <!--Não pode, para ficar mais fácil-->
+                         <label for="doenca">Você possui alguma doença?</label>
+                         <input type="radio" name="doenca" value="s"> Sim
+                         <input type="radio" name="doenca" value="n"> Não
+                    </div>
+                    <div class="tatoo"> <!-- após 12 meses-->
+                         <label for="tatoo">Você fez alguma tatuagem nos ultimos 12 meses?</label>
+                         <input type="radio" name="tatoo" value="s">Sim
+                         <input type="radio" name="tatoo" value="n">Não
+                    </div>
+                    <div class="cirurgia"> <!-- apos 12 meses-->
+                         <label for="cirurgia">Você já fez alguma cirurgia nos ultimos 12 meses?</label>
+                         <input type="radio" name="cirurgia" value="s">Sim
+                         <input type="radio" name="cirurgia" value="n"> Não
+                    </div>
+                    <div class="cpf">
+                         <label for="cpf">CPF: </label> 
+                         <input id="cpf" type="number" placeholder="insira seu CPF (somente números)" pattern="[0-9]{11}">
+                    </div>
+                    <div class="rg">
+                         <label for="rg">RG: </label>
+                         <input type="number" name="rg">
+                    </div>
+                    <div class="CEP">
+                         <label for="cep">CEP: </label>
+                         <input type="number" name="CEP">
+                    </div>
+                    <div class="numero-celular">
+                         <label for="nmr-celular">Numero de celular: </label>
+                    </div>
+                    <div class="email">
+                         <label for="e-mail">Email:</label>
+                         <input type="email" name="email">
+                    </div>
+                    <div class="pais">
+                         <label for="pai">Nome completo do pai: </label>
+                         <input type="text" name="pai">
+                         <label for="mae">Nome completo da mãe: </label>
+                         <input type="text" name="mae">
+                    </div>
+                    <div class="termos-contrato">
+                         <input type="radio" name="contrato" value="aceito"><label for="contrato">Marcando essa caixa de seleção você estará aceitando os <a href="#">Termos do contrato</a>
+                              que estão previstos.</label><br>
+                         <input type="radio" name="contrato" value="nao-aceito"><label for="contrato">Não estou de acordo com os termos do contrato</label>
+                    </div>    
+                    <div class="button-verificar">
+                         <input type="button" name="verificar" value="Verificar">
+                    </div>
+                    <div class="button-submit">
+                         <input type="button" name="submit" value="Enviar">
+                    </div>
+               </form>
+          </div>
+     </div>
+</body>
+</html>

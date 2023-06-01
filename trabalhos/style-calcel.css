@@ -1,0 +1,72 @@
+* {
+     padding: 0px;
+     margin: 0px;
+     box-sizing: border-box;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body {
+     background-color: rgba(0, 0, 0, 0.918);
+}
+.volt {
+     width: 100%;
+     background: linear-gradient(90deg, black, rgb(188, 7, 212));
+     border-bottom: 1px solid white;
+     padding: 7px;
+     display: block;
+}
+.volt > a {
+     color: #fff;
+     font-size: 18pt;
+}
+.volt > a:hover {
+     text-shadow: 0px 0px 10px rgb(255, 255, 255);
+     transition: 500ms;
+}
+.container {
+     margin: 0 auto;
+     align-items: center;
+     position: relative;
+     background: linear-gradient(45deg,purple, rgb(0, 255, 64));
+     width: 80%;
+     height: 1200px;
+     box-shadow: 0px 0px 30px rgb(153, 0, 255);
+}
+li {
+     padding: 5px 10px 5px 10px;
+     list-style-type: none;
+     overflow: hidden;
+     text-align: center;
+}
+li a {
+     text-decoration: none;
+     display: block;
+     background-color: rgba(0, 0, 0, 0.185);
+     color: rgb(255, 255, 255);
+     padding-top: 12px;
+     padding-bottom: 12px;
+     padding-left: 10px;
+     padding-right: 10px;
+     border-radius: 200px;
+}
+li a:hover {
+     background-color: #00000094;
+     color: #fff;
+     box-shadow: 0px 0px 5px black;
+     transition: 200ms;
+}
+.desafios, .projetos {
+     float: left;
+     background-color: rgba(0, 0, 0, 0.514);
+     padding: 10px;
+     margin: 10px;
+     width: 47%;
+     border-radius: 15px;
+     box-shadow: 0px 0px 3px black;
+     text-align: center;
+}
+h3{
+     color: #fff;
+     padding: 10px;
+     text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.493);
+}

@@ -1,0 +1,21 @@
+body{
+     background-color: darkgray;
+     font-family: 'Courier New';
+     text-align: center;
+}
+#title{
+     padding: 10px;
+     border: 1px solid;
+     background-color: rgb(136, 136, 136);
+     font-size: 35pt;
+}
+#text{
+     font-size: 25pt;
+}
+.image{
+     padding: 10px;
+}
+#rodape{
+     border-top: 1px solid;
+     padding: 10px;
+}

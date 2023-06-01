@@ -1,0 +1,48 @@
+html{
+     background-color:antiquewhite;
+     align-items: center;
+     text-align: center;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.titles{
+     padding: 30px;
+     border: 1px;
+     margin-left: 10%;
+     margin-right: 10%;
+     border-radius: 200px;
+     margin-bottom: 10px;
+     background-color: rgb(214, 172, 117);
+}
+
+.subtitle{
+     border-top: 1px solid;
+}
+.tabela{
+     width: 100%;
+     margin-bottom : .5em;
+     table-layout: fixed;
+     text-align: center;
+}
+.tabela, tr, td, th{
+     border: 1px solid;
+     border-collapse: collapse;
+     padding: 10px;
+}
+.pop{
+     text-align: right;
+}
+th{
+     background-color: rgb(64, 140, 211);
+     text-align: center;
+}
+td{
+     background-color: rgb(116, 165, 230);
+     text-align: center;
+}
+a{
+     color: black;
+}
+img{
+     height: 40px;
+     width: 60px;
+}
