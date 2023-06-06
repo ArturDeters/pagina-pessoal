@@ -37,11 +37,11 @@ html {
      float: left;
      justify-content: center;
      text-align: left;
-}
-.container-left-page-1 {
-     height: 100%;
-     width: 50%;
      float: right;
+}
+.container-left-page-1 > h1 {
+     font-size: 50pt;
+     font-weight: 800;
 }
 /* pagina 2 */
 .page-2 {
